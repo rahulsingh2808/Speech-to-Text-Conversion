@@ -6,7 +6,30 @@ The application leverages powerful speech recognition libraries to convert spoke
 
 Install Python: Make sure you have Python installed. You can download it from python.org.
 
+
 Install Visual Studio Code (VS Code): Download and install VS Code from here.
+
+Install Required Modules
+Install the speech_recognition, pyaudio, and tkinter modules by running the following commands in the terminal:
+
+bash
+Copy code
+pip install SpeechRecognition pyaudio
+Note: On some systems, installing pyaudio may require additional steps due to missing dependencies. If you encounter issues, you can install it using a precompiled wheel from this site.
+
+bash
+Copy code
+pip install <path_to_downloaded_wheel>
+tkinter is usually included with Python installations, but if it's not, you might need to install it separately. For most installations, it should be available by default.
+
+Step 3: Verify Installation
+To verify the installations, run the following commands in the Python interpreter:
+
+python
+Copy code
+import speech_recognition as sr
+import pyaudio
+import tkinter as tk
 
 Install Required Extensions:
 Python Extension for VS Code.
